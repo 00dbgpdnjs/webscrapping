@@ -1,0 +1,18 @@
+selenium : A framework which controls web page auto
+    - ex) 자동으로 페이지이동, 글자입력, 클릭 가능
+    - 이렇게 html 문서를 가져오면 그 문서를 bf4로 스크래핑 작업
+    - $ pip install selenium 과 webdriver 필요
+
+1. $ pip install selenium
+
++. Check your chrome version : chrome://version  or  three dots->help->chome info
+    - Cuz you need to install a 'Chrome web driver version' that's compatible with my Chrome version.
+    - web driver : 브라우저[크롬]를 자동으로 컨트롤 함. 
+        (브라우저마다 다름. 크롬용, 파이어폭스용 웹 드라이브 설치)
+    
+2. Install chromedriver
+    1) Search chromedriver 
+    2) Click chromedriver.chromium.org...
+    3) Click the link which is same to my chrome version 
+    4) Click the link which is same to my OS
+    5) Place chromedriver.exe in my project
